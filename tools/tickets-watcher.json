@@ -10,10 +10,10 @@
     "analyze_code_config.example.bat"
   ],
   "analysis_commands": [
-    "tools\\analyze_changed_and_new_files.bat"
+    "tools\\analyze_code.bat"
   ],
   "analysis_command_kinds": {
-    "tools\\analyze_changed_and_new_files.bat": "code_quality"
+    "tools\\analyze_code.bat": "code_quality"
   },
   "analysis_commands_seen": {
     "scripts": [],
@@ -22,7 +22,7 @@
   "analysis_tests_answered": true,
   "analysis_code_quality_answered": true,
   "analysis_command_states": {
-    "tools\\analyze_changed_and_new_files.bat": {
+    "tools\\analyze_code.bat": {
       "code_quality": "green"
     }
   }
