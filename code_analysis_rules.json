@@ -1,0 +1,75 @@
+{
+  "log_level": "all",
+  "fail_on": "warning",
+  "max_errors": 50,
+  "max_lines_per_file": {
+    "enabled": true,
+    "warning": 300,
+    "error": 500,
+    "exclude_patterns": [
+      ".git/**",
+      ".claude/**",
+      ".venv/**",
+      "venv/**",
+      "__pycache__/**",
+      "*.pyc",
+      "node_modules/**",
+      "dist/**",
+      "build/**",
+      "coverage/**",
+      "tickets/**",
+      "tmp/**",
+      "tools/**",
+      "graphify-out/**",
+      "code_analysis_results/**"
+    ]
+  },
+  "pmd_duplicates": {
+    "enabled": true,
+    "minimum_tokens": 100,
+    "exclude_patterns": {
+      "python": [
+        ".git/**",
+        ".claude/**",
+        ".venv/**",
+        "venv/**",
+        "__pycache__/**",
+        "*.pyc",
+        "node_modules/**",
+        "dist/**",
+        "build/**",
+        "coverage/**",
+        "tickets/**",
+        "tmp/**",
+        "tools/**",
+        "graphify-out/**",
+        "code_analysis_results/**"
+      ]
+    }
+  },
+  "pmd_similar_code": {
+    "enabled": false
+  },
+  "ruff_analyze": {
+    "enabled": true,
+    "select": ["E", "F", "W"],
+    "ignore": [],
+    "exclude_patterns": [
+      ".git/**",
+      ".claude/**",
+      ".venv/**",
+      "venv/**",
+      "__pycache__/**",
+      "*.pyc",
+      "node_modules/**",
+      "dist/**",
+      "build/**",
+      "coverage/**",
+      "tickets/**",
+      "tmp/**",
+      "tools/**",
+      "graphify-out/**",
+      "code_analysis_results/**"
+    ]
+  }
+}
